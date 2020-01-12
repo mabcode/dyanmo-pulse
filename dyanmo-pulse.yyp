@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1cb83f10-dbdf-4151-b412-2f00af1d400e",
+            "Value": {
+                "id": "e783616a-862f-4567-b186-f7820dc2d221",
+                "resourcePath": "scripts\/macros\/macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1f043c6d-e590-42f8-81fa-8aba40f06b18",
             "Value": {
                 "id": "a71fafb0-e4a0-4833-b8be-3f1aa35a7d41",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "5dd02b48-54ff-41ab-8d95-6c69d2ba2a6a",
+            "Value": {
+                "id": "13608dd7-0672-4456-8cb4-1bc5b82f2091",
+                "resourcePath": "sprites\/s_tile_floor\/s_tile_floor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e737d86-c67a-48ee-9840-fd9a6b28e318",
             "Value": {
                 "id": "22d201e8-635a-4985-849c-ef7e31e23ad7",
@@ -107,6 +123,14 @@
             "Value": {
                 "id": "902a3c4e-4619-46a2-b8cc-6fc5332c04be",
                 "resourcePath": "rooms\/title\/title.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7043598e-7266-4770-b71e-8789e0fef59f",
+            "Value": {
+                "id": "0bfff392-6dea-42ed-af36-1270df16d38b",
+                "resourcePath": "rooms\/bossroom\/bossroom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -132,6 +156,14 @@
                 "id": "931ecfec-a6bf-407a-9602-627febd38580",
                 "resourcePath": "views\/842070ee-176d-4e97-b106-34aa4b411630.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "861ce827-8bc9-4d07-8785-624630524b8d",
+            "Value": {
+                "id": "fee0ba4f-c424-4695-848e-d51f0ba97e53",
+                "resourcePath": "objects\/obj_bossroom\/obj_bossroom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -215,6 +247,14 @@
             }
         },
         {
+            "Key": "e61a1d94-b12f-4982-a4be-d0cfa43a70bb",
+            "Value": {
+                "id": "7f856bf8-e213-418d-9828-eeb7acf11c2f",
+                "resourcePath": "tilesets\/t_floor\/t_floor.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "e7e617c7-cc8b-4111-b977-690bb2b6ebf6",
             "Value": {
                 "id": "69d44823-9a5b-4776-ab9d-984ec9463a6f",
@@ -248,7 +288,7 @@
         }
     ],
     "script_order": [
-        
+        "1cb83f10-dbdf-4151-b412-2f00af1d400e"
     ],
     "tutorial": ""
 }
