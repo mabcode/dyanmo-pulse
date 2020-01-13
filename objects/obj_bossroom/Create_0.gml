@@ -30,10 +30,10 @@ ds_grid_set_region(grid,0,0,width,height,VOID);
 	}
 	
 	//Move the controller
-	var direction_x = lengthdir_x(1, controller_x * 90);
-	var direction_y = lengthdir_y(1, controller_y * 90);
-	controller_x += controller_x;
-	controller_y += controller_y;
+	var direction_x = lengthdir_x(1, controller_direction * 90);
+	var direction_y = lengthdir_y(1, controller_direction * 90);
+	controller_x += direction_x;
+	controller_y += direction_y;
 	
 	//Make sure that the tile do not exceed the grid
 	if(controller_x < 2 || controller_x >= width -2) {
