@@ -15,10 +15,15 @@ var controller_y = height / 2;
 var controller_direction = irandom(4);
 
 //control floor tile amount
-var tile_amount = 800;
+var tile_amount = 1000;
 
 // how often to change direction
 var change_directions_odds = 1;
+
+// set player location
+var player_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
+var player_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
+instance_create_layer(player_start_x, player_start_y, "Instances", obj_player);
 
 repeat(tile_amount) {
 	grid[# controller_x, controller_y] = FLOOR;

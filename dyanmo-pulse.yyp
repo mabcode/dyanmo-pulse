@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00150212-8954-4566-8e20-fda28a1ba853",
+            "Value": {
+                "id": "69b3552a-37b3-4967-ac02-907ef1c5da22",
+                "resourcePath": "scripts\/grid_place_meeting\/grid_place_meeting.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0023b598-abff-4ecb-9807-18c2612df8e7",
             "Value": {
                 "id": "f696461c-be1a-4f23-8c1c-ebc368958d0c",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "7836ada4-4983-498e-b920-22bed883c15a",
+            "Value": {
+                "id": "8544dbd0-40bc-4629-8bc9-399463eb6222",
+                "resourcePath": "objects\/obj_camera\/obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8099d65c-149f-4efb-840b-89a8771f863e",
             "Value": {
                 "id": "99fd8b65-da0a-4917-b143-c99b6e0030d0",
@@ -215,6 +231,14 @@
             }
         },
         {
+            "Key": "b2decbc2-1fa8-466f-b749-0455b249c559",
+            "Value": {
+                "id": "1fb6971f-65a3-4544-808d-dd64fc33deb3",
+                "resourcePath": "objects\/obj_player\/obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b9a84fe3-eab6-4281-ae91-e34868c768fb",
             "Value": {
                 "id": "32058eff-af99-4421-9913-736a67d517e9",
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "eacf75f2-686b-4b1a-bde6-c697bda0537d",
+            "Value": {
+                "id": "01caa3de-f1bc-4f68-9da0-75cf005a3df0",
+                "resourcePath": "sprites\/spr_player\/spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee75a3a4-2f34-4a05-baf2-89caa2b687c7",
             "Value": {
                 "id": "89e67423-4fa3-406a-901f-cd21ad64fdf9",
@@ -304,7 +336,8 @@
         }
     ],
     "script_order": [
-        "1cb83f10-dbdf-4151-b412-2f00af1d400e"
+        "1cb83f10-dbdf-4151-b412-2f00af1d400e",
+        "00150212-8954-4566-8e20-fda28a1ba853"
     ],
     "tutorial": ""
 }
