@@ -1,1 +1,1 @@
-room_goto(bossroom)
+room_goto(dungeon)

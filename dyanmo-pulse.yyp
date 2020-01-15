@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "256cc045-19a5-422a-9e07-123154c59774",
+            "Value": {
+                "id": "267b420f-0ec2-4842-a0d6-8e8b6b3793fc",
+                "resourcePath": "rooms\/dungeon\/dungeon.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "257e2ad2-6894-4f03-9ec3-2db5bc7267ae",
             "Value": {
                 "id": "d7c8a20e-3215-45a7-9113-3f2e62ddbafd",
@@ -163,6 +171,14 @@
             "Value": {
                 "id": "fee0ba4f-c424-4695-848e-d51f0ba97e53",
                 "resourcePath": "objects\/obj_bossroom\/obj_bossroom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "862d3ae1-ced4-462c-915c-aa05437be257",
+            "Value": {
+                "id": "babea747-b3a2-4ce1-8f2a-649f635c89bf",
+                "resourcePath": "objects\/obj_dungeon\/obj_dungeon.yy",
                 "resourceType": "GMObject"
             }
         },
