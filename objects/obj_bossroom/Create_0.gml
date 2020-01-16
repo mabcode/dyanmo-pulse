@@ -11,8 +11,8 @@ grid = ds_grid_create(width,height);
 ds_grid_set_region(grid,0,0,width,height,VOID);
 
 //setting up the controller
- var controller_x = width / 2;
- var controller_y = height / 2;
+ var controller_x = width div 2;
+ var controller_y = height div 2;
  var controller_direction = irandom(3);
  
  //control the amount of floor tiles
