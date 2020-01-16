@@ -143,11 +143,27 @@
             }
         },
         {
+            "Key": "63edb2d9-6dad-4a06-9d3f-4311f9642a51",
+            "Value": {
+                "id": "fb6f23a0-d0d6-4260-9c51-d8a3fcc56580",
+                "resourcePath": "sprites\/spr_wall_tiles\/spr_wall_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ab97e14-7ea0-47ef-8f09-147cc57da4d1",
             "Value": {
                 "id": "902a3c4e-4619-46a2-b8cc-6fc5332c04be",
                 "resourcePath": "rooms\/title\/title.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6ac03474-5ad2-4f96-be94-e3bf2a532140",
+            "Value": {
+                "id": "1f9a86fd-f2ac-401c-9c53-a9249980546d",
+                "resourcePath": "tilesets\/t_walls\/t_walls.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

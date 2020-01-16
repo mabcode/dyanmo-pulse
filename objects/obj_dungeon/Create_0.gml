@@ -50,10 +50,34 @@ repeat(tile_amount) {
 	
 }
 
-for(var _y = 1; _y < height-1; _y++) {
-	for(var _x = 1; _x < width-1; _x++) {
-		if(grid[# _x, _y] == FLOOR) {
-			tilemap_set(wall_tile_id, 1, _x, _y);
+// Create the walls tiles
+for (var _y = 1; _y < height-1; _y++) {
+	for (var _x = 1; _x < width-1; _x++) {
+		if (grid[# _x, _y] != FLOOR) {
+			var _north_tile = grid[# _x, _y-1] == VOID;
+			var _west_tile = grid[# _x-1, _y] == VOID;
+			var _east_tile = grid[# _x+1, _y] == VOID;
+			var _south_tile = grid[# _x, _y+1] == VOID;
+		
+			var _tile_index = NORTH*_north_tile + WEST*_west_tile + EAST*_east_tile + SOUTH*_south_tile + 1;
+			if (_tile_index == 1) {
+				grid[# _x, _y] = FLOOR	
+			}
+		}
+	}
+}
+
+// Create the walls tiles
+for (var _y = 1; _y < height-1; _y++) {
+	for (var _x = 1; _x < width-1; _x++) {
+		if (grid[# _x, _y] != FLOOR) {
+			var _north_tile = grid[# _x, _y-1] == VOID;
+			var _west_tile = grid[# _x-1, _y] == VOID;
+			var _east_tile = grid[# _x+1, _y] == VOID;
+			var _south_tile = grid[# _x, _y+1] == VOID;
+		
+			var _tile_index = NORTH*_north_tile + WEST*_west_tile + EAST*_east_tile + SOUTH*_south_tile + 1;
+			tilemap_set(wall_tile_id, _tile_index, _x, _y);
 		}
 	}
 }
