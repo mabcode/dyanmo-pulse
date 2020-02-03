@@ -12,10 +12,10 @@ ds_grid_set_region(grid, 0, 0, width, height, VOID);
 // setting up the controller
 var controller_x = width / 2;
 var controller_y = height / 2;
-var controller_direction = irandom(4);
+var controller_direction = irandom(3);
 
 //control floor tile amount
-var tile_amount = 1000;
+var tile_amount = 500;
 
 // how often to change direction
 var change_directions_odds = 1;
@@ -30,7 +30,7 @@ repeat(tile_amount) {
 	
 	// Randomize the direction
 	if(irandom(change_directions_odds) == change_directions_odds) {
-		controller_direction = irandom(4);
+		controller_direction = irandom(3);
 	}
 	
 	// Move the controller
@@ -40,11 +40,11 @@ repeat(tile_amount) {
 	controller_y += direction_y;
 	
 	// Make sure that the tiles don't exceed the grid
-	if(controller_x <= 2 || controller_x >= height - 2) {
+	if(controller_x < 2 || controller_x >= width - 2) {
 		controller_x += -direction_x * 2;
 	}
 	
-	if(controller_y <= 2 || controller_y >= width - 2) {
+	if(controller_y < 2 || controller_y >= height - 2) {
 		controller_y += -direction_y * 2;
 	}
 	
