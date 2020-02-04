@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1113976d-8f23-4952-bdc3-ca1690a470de",
+            "Value": {
+                "id": "7789b3ff-def3-46bb-8bc4-2dbe47152fe1",
+                "resourcePath": "sprites\/spr_hard\/spr_hard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1717d0c6-1568-4959-a29e-e0d2fa8f52f9",
             "Value": {
                 "id": "5c774cb8-b28d-456c-a350-fc5836e5b330",
@@ -60,6 +68,14 @@
                 "id": "e783616a-862f-4567-b186-f7820dc2d221",
                 "resourcePath": "scripts\/macros\/macros.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1de15f1b-0f1c-4e5a-ac47-e8848ad02aaa",
+            "Value": {
+                "id": "dc9a8262-b018-4336-bd6f-16fda408f81f",
+                "resourcePath": "objects\/obj_easyMode\/obj_easyMode.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "74c6c01a-f555-4c86-b36f-42cc7f844173",
+            "Value": {
+                "id": "fb5038db-5816-49b9-a22d-9dc0e70c41c3",
+                "resourcePath": "rooms\/difficultyMenu\/difficultyMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7836ada4-4983-498e-b920-22bed883c15a",
             "Value": {
                 "id": "8544dbd0-40bc-4629-8bc9-399463eb6222",
@@ -220,6 +244,14 @@
                 "id": "babea747-b3a2-4ce1-8f2a-649f635c89bf",
                 "resourcePath": "objects\/obj_dungeon\/obj_dungeon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8e47ec0b-eb85-44e0-bbf3-5cbffc9b4019",
+            "Value": {
+                "id": "e6f1d672-76ac-47fb-87a5-231708f30e14",
+                "resourcePath": "sprites\/spr_easy\/spr_easy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +311,14 @@
             }
         },
         {
+            "Key": "bba557a1-5ea3-43a5-ba8d-db9f22cfc721",
+            "Value": {
+                "id": "44e271ac-8036-43cd-a2e6-fd7da5408b5f",
+                "resourcePath": "objects\/obj_mediumMode\/obj_mediumMode.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c40cd85e-922b-4ee1-b0c9-5342d0ab83db",
             "Value": {
                 "id": "56ba0f07-dcf7-4b27-a7ad-5c8605ffffef",
@@ -300,6 +340,14 @@
                 "id": "aa9eddf0-4c03-4af6-b5df-284958b394b7",
                 "resourcePath": "views\/d6807f03-a67e-4a4a-ad54-75ddd08a6bbf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc0ab402-a7ee-404a-b1b7-a5645add3212",
+            "Value": {
+                "id": "b4d04c9a-3cf8-4702-9a45-e74f952145da",
+                "resourcePath": "sprites\/spr_medium\/spr_medium.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -364,6 +412,14 @@
                 "id": "f23991c6-cf9c-4376-94c4-14a6548d364b",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8f1c056-100d-4153-9d25-b9cbf3c44485",
+            "Value": {
+                "id": "253ba712-f380-4669-bb69-3bfbdc2eb596",
+                "resourcePath": "objects\/obj_hardMode\/obj_hardMode.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

@@ -1,1 +1,1 @@
-room_goto(dungeon)
+room_goto(difficultyMenu)
