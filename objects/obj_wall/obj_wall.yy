@@ -1,8 +1,8 @@
 {
-    "id": "963a5347-0c29-4263-8789-8f33343c3253",
+    "id": "f7b76a66-e4d2-4c04-9c28-ba35b15dbb90",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_warp",
+    "name": "obj_wall",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "772d4474-006d-4eeb-a5b4-99b4d7a6f21d",
+    "spriteId": "25feb940-4f4b-4210-8991-0e5ac32bde10",
     "visible": true
 }

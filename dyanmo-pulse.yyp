@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "25feb940-4f4b-4210-8991-0e5ac32bde10",
+            "Value": {
+                "id": "1bcd80bb-a3c1-47fc-8960-043faa319005",
+                "resourcePath": "sprites\/spr_wall_hub\/spr_wall_hub.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c339c5a-026a-403f-b4b9-640ddb6ccdc9",
             "Value": {
                 "id": "f8ea2c2e-4967-4409-8e08-e1b433f79274",
@@ -140,14 +148,6 @@
                 "id": "3dd6ee3f-f7b2-42fd-82bc-435f05fa88da",
                 "resourcePath": "views\/45688a4d-3933-4f1a-8592-907123cf5be1.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "497fb6b4-0bc6-4938-baad-3b94cfe81249",
-            "Value": {
-                "id": "421dbfef-b8d0-4a1e-9913-b0208342c445",
-                "resourcePath": "sprites\/spr_starGate\/spr_starGate.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +204,14 @@
                 "id": "fb5038db-5816-49b9-a22d-9dc0e70c41c3",
                 "resourcePath": "rooms\/difficultyMenu\/difficultyMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "772d4474-006d-4eeb-a5b4-99b4d7a6f21d",
+            "Value": {
+                "id": "cc9f2d89-712f-48b3-99aa-9be2c4587d5d",
+                "resourcePath": "sprites\/spr_star_gate\/spr_star_gate.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -428,6 +436,14 @@
                 "id": "f23991c6-cf9c-4376-94c4-14a6548d364b",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7b76a66-e4d2-4c04-9c28-ba35b15dbb90",
+            "Value": {
+                "id": "dd496002-a845-4549-ba79-2cc355cfe152",
+                "resourcePath": "objects\/obj_wall\/obj_wall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
