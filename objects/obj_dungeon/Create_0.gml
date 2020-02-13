@@ -1,4 +1,5 @@
 randomize()
+current_room = obj_dungeon;
 
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
 
@@ -47,6 +48,7 @@ for(var i =0 ; i < tile_amount ; i++) {
 		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_bad1);
 	}
+	
 	
 	// Make sure that the tiles don't exceed the grid
 	if(controller_x < 2 || controller_x >= width - 2) {
