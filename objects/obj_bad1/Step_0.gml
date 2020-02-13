@@ -1,32 +1,24 @@
-// player step events
-
-var x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
-
-x_speed += x_input * acceleration;
-y_speed += y_input * acceleration;
-
-var total_speed = point_distance(0, 0, x_speed, y_speed);
-var total_direction = point_direction(0, 0, x_speed ,y_speed);
-
-if (total_speed > max_speed) {
-	x_speed = lengthdir_x(max_speed, total_direction);
-	y_speed = lengthdir_y(max_speed, total_direction);
-}
-
-if(x_input == 0) {
-	x_speed = lerp(x_speed, 0, 0.3);
-}
-
-if(y_input == 0) {
-	y_speed = lerp(y_speed, 0, 0.3);
-}
-
-if(x_input == 0 && y_input == 0) {
-	image_speed = 0;
-	image_index = 0;
-} else {
-	image_speed = 0.7;
+switch(state){
+	case e_state.idle:{
+		x_speed =0;
+		y_speed =0;
+		if(distance_to_object(obj_player)< 150){
+			state = e_state.chase;
+		}
+	}
+	break;
+	
+	case e_state.chase:{
+		//right= pos , left = neg
+		dir_x = sign(obj_player.x - x);
+		dir_y = sign(obj_player.y - y);	
+		x_speed = dir_x * 1.2;
+		y_speed = dir_y * 1.2;
+		if(distance_to_object(obj_player) > 155){
+			state = e_state.idle;
+		}
+		
+	}
 }
 
 // Right and Left collision detection

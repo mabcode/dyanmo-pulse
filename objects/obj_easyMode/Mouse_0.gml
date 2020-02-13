@@ -1,4 +1,7 @@
 max_speed = 4;
 
 
-room_goto(dungeon)
+//lower number creates more enemies
+num_enemy = 50;
+
+room_goto(hubroom);

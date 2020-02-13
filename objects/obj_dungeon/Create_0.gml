@@ -1,4 +1,10 @@
+enum e_state{
+	idle,
+	chase
+}
+
 randomize()
+current_room = obj_dungeon;
 
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
 
@@ -21,11 +27,13 @@ var tile_amount = 500;
 var change_directions_odds = 1;
 
 // set player location
+globalvar num_enemy;
+
 var player_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 var player_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 instance_create_layer(player_start_x, player_start_y, "Instances", obj_player);
 
-repeat(tile_amount) {
+for(var i =0 ; i < tile_amount ; i++) {
 	grid[# controller_x, controller_y] = FLOOR;
 	
 	// Randomize the direction
@@ -39,6 +47,14 @@ repeat(tile_amount) {
 	controller_x += direction_x;
 	controller_y += direction_y;
 	
+	//Create the enemys
+	if(i%num_enemy==0 && i>50){
+		var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
+		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
+		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_bad1);
+	}
+	
+	
 	// Make sure that the tiles don't exceed the grid
 	if(controller_x < 2 || controller_x >= width - 2) {
 		controller_x += -direction_x * 2;
@@ -46,6 +62,13 @@ repeat(tile_amount) {
 	
 	if(controller_y < 2 || controller_y >= height - 2) {
 		controller_y += -direction_y * 2;
+	}
+	
+	//make the warp block to next level
+	if(i==488){
+		var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
+		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
+		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
 	}
 	
 }
