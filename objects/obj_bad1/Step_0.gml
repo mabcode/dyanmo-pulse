@@ -12,8 +12,8 @@ switch(state){
 		//right= pos , left = neg
 		dir_x = sign(obj_player.x - x);
 		dir_y = sign(obj_player.y - y);	
-		x_speed = dir_x * 1.5;
-		y_speed = dir_y * 1.5;
+		x_speed = dir_x * 1.2;
+		y_speed = dir_y * 1.2;
 		if(distance_to_object(obj_player) > 155){
 			state = e_state.idle;
 		}
