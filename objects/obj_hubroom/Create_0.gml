@@ -23,7 +23,7 @@ for (var _y = 2; _y < height-2; _y++) {
 		grid[# _x, _y] = FLOOR;
 		
 		//make the warp block to next level
-		if(_x == 20 && _y == 20){
+		if(_x == 10 && _y == 10){
 			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
 			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
 			instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);

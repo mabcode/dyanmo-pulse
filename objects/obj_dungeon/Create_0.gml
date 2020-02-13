@@ -1,3 +1,8 @@
+enum e_state{
+	idle,
+	chase
+}
+
 randomize()
 current_room = obj_dungeon;
 
