@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "4dc3d216-1257-4b84-900d-5ca8954851a1",
+            "Value": {
+                "id": "26374087-50bd-4b65-a773-d9d5b50945c9",
+                "resourcePath": "rooms\/dungeon2\/dungeon2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5dd02b48-54ff-41ab-8d95-6c69d2ba2a6a",
             "Value": {
                 "id": "13608dd7-0672-4456-8cb4-1bc5b82f2091",
@@ -164,6 +172,14 @@
                 "id": "22d201e8-635a-4985-849c-ef7e31e23ad7",
                 "resourcePath": "views\/5e737d86-c67a-48ee-9840-fd9a6b28e318.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6183f438-c265-43b4-8ae9-a8417e7f1312",
+            "Value": {
+                "id": "bd67e542-cbcf-4d33-bff3-86790448e5b4",
+                "resourcePath": "objects\/obj_dungeon2\/obj_dungeon2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -300,6 +316,14 @@
                 "id": "40676264-fc13-4f18-8264-197655c7062c",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9c76265-1301-43d5-a2da-e4976b69be00",
+            "Value": {
+                "id": "61fe768a-3349-45c4-bd4a-a0b34bea36c6",
+                "resourcePath": "tilesets\/t_walls_cyber\/t_walls_cyber.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -452,6 +476,14 @@
                 "id": "253ba712-f380-4669-bb69-3bfbdc2eb596",
                 "resourcePath": "objects\/obj_hardMode\/obj_hardMode.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb442923-b672-47fe-b746-866f934c62f1",
+            "Value": {
+                "id": "b2c78622-c1e0-4fe6-a67a-8cfb926e9c02",
+                "resourcePath": "sprites\/spr_wall_tiles2\/spr_wall_tiles2.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
