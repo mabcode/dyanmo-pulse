@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b07a294-6320-42f7-98ad-86bb097069bf",
+            "Value": {
+                "id": "3ce6eadb-8338-4ddb-be9b-f41afea498e5",
+                "resourcePath": "objects\/obj_dungeon_cyber\/obj_dungeon_cyber.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1113976d-8f23-4952-bdc3-ca1690a470de",
             "Value": {
                 "id": "7789b3ff-def3-46bb-8bc4-2dbe47152fe1",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "28762395-80d5-4ec2-a026-39d73264908b",
+            "Value": {
+                "id": "06f941fc-be40-45f5-b898-a185f1eb630b",
+                "resourcePath": "tilesets\/t_walls1\/t_walls1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "28daf8e3-404b-4d72-a28a-18266f9b6995",
             "Value": {
                 "id": "5bc7b784-a89a-4700-8828-e4d554b2cab1",
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "41855b2c-32a2-4c35-8929-b11fb22a9655",
+            "Value": {
+                "id": "a742b154-f4e8-4742-8181-14ece3ded926",
+                "resourcePath": "objects\/obj_gameOver\/obj_gameOver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "45688a4d-3933-4f1a-8592-907123cf5be1",
             "Value": {
                 "id": "3dd6ee3f-f7b2-42fd-82bc-435f05fa88da",
@@ -151,11 +175,11 @@
             }
         },
         {
-            "Key": "4dc3d216-1257-4b84-900d-5ca8954851a1",
+            "Key": "4bbac83c-1d11-4d4d-a401-7cdd3f781133",
             "Value": {
-                "id": "26374087-50bd-4b65-a773-d9d5b50945c9",
-                "resourcePath": "rooms\/dungeon2\/dungeon2.yy",
-                "resourceType": "GMRoom"
+                "id": "e63f7d2b-4cc2-40b0-ba7b-29502106fc94",
+                "resourcePath": "sprites\/spr_wall_tiles_cyber\/spr_wall_tiles_cyber.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,14 +196,6 @@
                 "id": "22d201e8-635a-4985-849c-ef7e31e23ad7",
                 "resourcePath": "views\/5e737d86-c67a-48ee-9840-fd9a6b28e318.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6183f438-c265-43b4-8ae9-a8417e7f1312",
-            "Value": {
-                "id": "bd67e542-cbcf-4d33-bff3-86790448e5b4",
-                "resourcePath": "objects\/obj_dungeon2\/obj_dungeon2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "a05173c6-5746-4411-9fa0-95f98fe03a11",
+            "Value": {
+                "id": "a39ec884-5fdb-4a27-b5c2-d25e20942e92",
+                "resourcePath": "rooms\/dungeonCyber\/dungeonCyber.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "40676264-fc13-4f18-8264-197655c7062c",
@@ -319,11 +343,11 @@
             }
         },
         {
-            "Key": "a9c76265-1301-43d5-a2da-e4976b69be00",
+            "Key": "af967ac8-0bee-43fe-9bae-f1f3bd7d6f51",
             "Value": {
-                "id": "61fe768a-3349-45c4-bd4a-a0b34bea36c6",
-                "resourcePath": "tilesets\/t_walls_cyber\/t_walls_cyber.yy",
-                "resourceType": "GMTileSet"
+                "id": "124b7010-78e5-449c-89e3-e6f1b2569203",
+                "resourcePath": "rooms\/gameOver\/gameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "ee34255d-7bfd-4b6c-a4a2-00a19b22d0e9",
+            "Value": {
+                "id": "9a118801-7786-4ade-8915-e41e79e05e8e",
+                "resourcePath": "sprites\/spr_end\/spr_end.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee75a3a4-2f34-4a05-baf2-89caa2b687c7",
             "Value": {
                 "id": "89e67423-4fa3-406a-901f-cd21ad64fdf9",
@@ -476,14 +508,6 @@
                 "id": "253ba712-f380-4669-bb69-3bfbdc2eb596",
                 "resourcePath": "objects\/obj_hardMode\/obj_hardMode.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fb442923-b672-47fe-b746-866f934c62f1",
-            "Value": {
-                "id": "b2c78622-c1e0-4fe6-a67a-8cfb926e9c02",
-                "resourcePath": "sprites\/spr_wall_tiles2\/spr_wall_tiles2.yy",
-                "resourceType": "GMSprite"
             }
         }
     ],
