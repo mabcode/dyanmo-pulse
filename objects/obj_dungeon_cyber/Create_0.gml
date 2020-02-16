@@ -68,7 +68,8 @@ for(var i =0 ; i < tile_amount ; i++) {
 	if(i==488){
 		var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
-		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
+		var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
+		rm.roomTo = hubroom;
 	}
 	
 }
