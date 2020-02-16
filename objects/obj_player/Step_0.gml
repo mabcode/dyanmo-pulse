@@ -3,8 +3,22 @@
 var x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 var y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
 
+//change character image set;
+
+if(x_input>0 || x_input<0){
+	sprite_index=spr_player_r;
+}
+else if(y_input < 0){
+	sprite_index=spr_player_u;
+}
+else if(y_input > 0){
+	sprite_index=spr_player_d;
+}
+
+
 x_speed += x_input * acceleration;
 y_speed += y_input * acceleration;
+
 
 var total_speed = point_distance(0, 0, x_speed, y_speed);
 var total_direction = point_direction(0, 0, x_speed ,y_speed);
