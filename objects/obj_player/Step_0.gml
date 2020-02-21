@@ -46,7 +46,6 @@ if(x_input == 0 && y_input == 0) {
 // Right and Left collision detection
 x += x_speed;
 
-
 if(x_speed > 0) {
 	image_xscale = 1;
 	if(grid_place_meeting(self, current_room.grid)) {
@@ -68,13 +67,13 @@ y += y_speed;
 
 if(y_speed > 0) {
 	if(grid_place_meeting(self, current_room.grid)) {
-		y = bbox_bottom&~(C_HEIGHT-1);
+		y = bbox_bottom&~(C_HEIGHT - 1);
 		y -= bbox_bottom - y;
 		y_speed = 0;
 	}
 } else if(y_speed < 0) {
 	if(grid_place_meeting(self, current_room.grid)) {
-		y = bbox_top&~(C_HEIGHT-1);
+		y = bbox_top&~(C_HEIGHT - 1);
 		y += C_HEIGHT + y - bbox_top;
 		y_speed = 0;
 	}
