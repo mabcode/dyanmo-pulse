@@ -1,6 +1,9 @@
 x_speed = 0;
 y_speed = 0;
 playerHealth = 100;
+healthMax = playerHealth;
+flash = 0;
+createGun =1;
 
 globalvar difficulty_mod;
 

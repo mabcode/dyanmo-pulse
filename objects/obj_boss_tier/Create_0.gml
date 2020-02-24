@@ -6,3 +6,5 @@ globalvar num_enemy;
 globalvar range;
 enemyHealth = 1000;
 acceleration = 0.6;
+flash=0;
+hitFrom = 0;

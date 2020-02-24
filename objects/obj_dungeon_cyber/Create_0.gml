@@ -51,7 +51,7 @@ for(var i =0 ; i < tile_amount ; i++) {
 	if(i%num_enemy==0 && i>50){
 		var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
-		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_bad1);
+		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_bad_low);
 	}
 	
 	if((i+1)%num_enemy==0 && i>80){
@@ -59,7 +59,7 @@ for(var i =0 ; i < tile_amount ; i++) {
 		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 		instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_bad_mid);
 	}
-	
+
 	// Make sure that the tiles don't exceed the grid
 	if(controller_x < 2 || controller_x >= width - 2) {
 		controller_x += -direction_x * 2;

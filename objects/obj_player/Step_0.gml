@@ -3,6 +3,13 @@
 var x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 var y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
 
+//setup code for controller 
+if((abs(gamepad_axis_value(0,gp_axislh)) > 0.2) || (abs(gamepad_axis_value(0,gp_axislv)) > 0.2)){
+	x_input = max(gamepad_axis_value(0,gp_axislh),0)-abs(min(gamepad_axis_value(0,gp_axislh),0));
+	y_input = max(gamepad_axis_value(0,gp_axislv),0)-abs(min(gamepad_axis_value(0,gp_axislv),0));
+	
+}
+
 //change character image set;
 
 if(x_input>0 || x_input<0){
@@ -19,6 +26,10 @@ else if(y_input > 0){
 x_speed += x_input * acceleration;
 y_speed += y_input * acceleration;
 
+if(createGun){
+	instance_create_layer(-10, -10, "Instances", obj_gun);
+	createGun=0;
+}
 
 var total_speed = point_distance(0, 0, x_speed, y_speed);
 var total_direction = point_direction(0, 0, x_speed ,y_speed);
