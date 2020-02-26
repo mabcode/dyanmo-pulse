@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3cc28a91-8c4b-48e6-bbb1-ac5da8b7a5ae",
+            "Value": {
+                "id": "e9984f87-4139-4f6a-b572-b34cede3933e",
+                "resourcePath": "objects\/obj_battle_music\/obj_battle_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "41855b2c-32a2-4c35-8929-b11fb22a9655",
             "Value": {
                 "id": "a742b154-f4e8-4742-8181-14ece3ded926",
@@ -236,6 +244,14 @@
                 "id": "e63f7d2b-4cc2-40b0-ba7b-29502106fc94",
                 "resourcePath": "sprites\/spr_wall_tiles_cyber\/spr_wall_tiles_cyber.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4be2207b-9045-4f05-80c8-f676b7f17ae3",
+            "Value": {
+                "id": "a8080f3f-2a18-4665-8eab-0ab56acee4e3",
+                "resourcePath": "sounds\/m_darkwaves\/m_darkwaves.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -303,11 +319,27 @@
             }
         },
         {
+            "Key": "6fd9b558-a7a1-4fb0-9904-659556bde034",
+            "Value": {
+                "id": "3d15e3ee-8a21-4877-8b55-6c577aee0997",
+                "resourcePath": "sounds\/m_battle\/m_battle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7043598e-7266-4770-b71e-8789e0fef59f",
             "Value": {
                 "id": "0bfff392-6dea-42ed-af36-1270df16d38b",
                 "resourcePath": "rooms\/bossroom\/bossroom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "70f5c20f-8d9c-497a-ad9c-56341c5bd458",
+            "Value": {
+                "id": "e3db87d6-e9d7-4c37-9f14-2942e4a35b0e",
+                "resourcePath": "objects\/obj_theme_music\/obj_theme_music.yy",
+                "resourceType": "GMObject"
             }
         },
         {
