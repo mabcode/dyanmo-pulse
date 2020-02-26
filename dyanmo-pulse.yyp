@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "36ad886c-5d3b-4ed4-a7a5-f148c485d36a",
+            "Value": {
+                "id": "ed66d1c1-c40d-4c39-938b-81e321ac5189",
+                "resourcePath": "sprites\/spr_tile_neon_floor\/spr_tile_neon_floor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39f32197-1d05-467d-80fb-d8c3b43794db",
             "Value": {
                 "id": "9e523d6c-b200-4b30-9f33-3ae08fe34a64",
