@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "ed60c738-82f8-4f2c-93a2-562cb681b258",
+            "Value": {
+                "id": "cad8a16b-f0e3-47a0-87a9-a531cff4960a",
+                "resourcePath": "sprites\/spr_healthBoarder\/spr_healthBoarder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee32a45f-f9a0-448e-9199-8f50570e0a0d",
             "Value": {
                 "id": "2e4bbc32-6528-4edc-86a7-e8b3c593b52a",
