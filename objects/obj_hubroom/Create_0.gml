@@ -17,7 +17,6 @@ var player_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 var player_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 instance_create_layer(player_start_x, player_start_y, "Instances", obj_player);
 
-
 for (var _y = 2; _y < height-2; _y++) {
 	for (var _x = 2; _x < width-2; _x++) {
 		grid[# _x, _y] = FLOOR;
