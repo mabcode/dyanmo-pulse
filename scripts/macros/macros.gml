@@ -1,7 +1,6 @@
 #macro C_HEIGHT 32
 #macro C_WIDTH 32
 
-#macro WALL -101
 #macro FLOOR -102
 
 #macro VOID -103

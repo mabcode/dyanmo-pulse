@@ -14,10 +14,19 @@ switch(state){
 		dir_y = sign(obj_player.y - y);	
 		x_speed = dir_x * 1.2;
 		y_speed = dir_y * 1.2;
-		if(distance_to_object(obj_player) > range+5){
-			state = e_state.idle;
+
+		if(distance_to_object(obj_player) < 20){
+			state = e_state.attack;
 		}
-		
+	}
+	break;
+	
+	case e_state.attack:{
+		x_speed =0;
+		y_speed =0;
+		if(distance_to_object(obj_player) > range+15){
+			state = e_state.chase;
+		}
 	}
 }
 
