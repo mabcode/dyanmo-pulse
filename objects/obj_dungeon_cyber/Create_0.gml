@@ -1,5 +1,5 @@
 randomize()
-current_room = obj_dungeon;
+current_room = obj_dungeon_cyber;
 
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
 

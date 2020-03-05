@@ -37,6 +37,14 @@ for (var _y = 2; _y < height-2; _y++) {
 			rm.roomTo = dungeon;
 		}
 		
+		//make the warp block to bossroom
+		if(_x == 15 && _y == 8){
+			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
+			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
+			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
+			rm.roomTo = bossroom;
+		}
+		
 		
 	}
 }
