@@ -8,3 +8,5 @@ enemyHealth = 1000;
 acceleration = 0.6;
 flash=0;
 hitFrom = 0;
+
+createGun =1;

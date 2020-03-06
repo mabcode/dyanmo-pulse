@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "10a7808b-e959-48e3-bd4f-1a3cf81cf06f",
+            "Value": {
+                "id": "dd8ac2ca-3e46-47e7-9ae7-e2a24529cdbd",
+                "resourcePath": "sprites\/spr_bullet_enemy\/spr_bullet_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1113976d-8f23-4952-bdc3-ca1690a470de",
             "Value": {
                 "id": "7789b3ff-def3-46bb-8bc4-2dbe47152fe1",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "69866813-081b-43fb-90f7-87dec78a25bf",
+            "Value": {
+                "id": "15017b1e-08b9-4737-a436-82b7079e9887",
+                "resourcePath": "objects\/obj_bad_boss\/obj_bad_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ab97e14-7ea0-47ef-8f09-147cc57da4d1",
             "Value": {
                 "id": "902a3c4e-4619-46a2-b8cc-6fc5332c04be",
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "a48b2ff1-2271-462e-a8e8-7c8918daa43f",
+            "Value": {
+                "id": "8ef568b2-c35a-46c3-9c2e-f1a493510439",
+                "resourcePath": "objects\/obj_bullet_enemy\/obj_bullet_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "40676264-fc13-4f18-8264-197655c7062c",
@@ -591,11 +615,27 @@
             }
         },
         {
+            "Key": "cbc6fa34-0e1e-42f6-975b-ff2b42fc1e6c",
+            "Value": {
+                "id": "07edf87c-c2d1-46ed-a742-8311ce0f939d",
+                "resourcePath": "sprites\/spr_bad_boss\/spr_bad_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "b3e1680f-8b2d-470c-ba77-c3141cce94f7",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd074389-e072-427e-9618-29349232d9ca",
+            "Value": {
+                "id": "2c352e44-8479-46b9-8e4d-91982e5c53ff",
+                "resourcePath": "objects\/obj_gun_enemy\/obj_gun_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
