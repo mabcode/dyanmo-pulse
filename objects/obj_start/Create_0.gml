@@ -1,5 +1,9 @@
 enum e_state{
 	idle,
 	chase,
-	attack
+	attack,
+	attackOne,
+	attackTwo,
+	attackThree
+	
 }

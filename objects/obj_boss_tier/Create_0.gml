@@ -4,9 +4,9 @@ state = e_state.idle;
 globalvar max_speed_e;
 globalvar num_enemy;
 globalvar range;
-enemyHealth = 1000;
+enemyHealth = 1;
 acceleration = 0.6;
 flash=0;
 hitFrom = 0;
 
-createGun =1;
+instance_create_layer(0, 0, "Instances", obj_gun_enemy);

@@ -1,8 +1,3 @@
-if(createGun){
-	instance_create_layer(0, 0, "Instances", obj_gun_enemy);
-	createGun=0;
-}
-
 switch(state){
 	case e_state.idle:{
 		x_speed =0;
