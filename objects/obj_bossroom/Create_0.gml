@@ -19,7 +19,9 @@ instance_create_layer(player_start_x, player_start_y, "Instances", obj_player);
 
 for (var _y = 2; _y < height-2; _y++) {
 	for (var _x = 2; _x < width-2; _x++) {
-		grid[# _x, _y] = FLOOR;
+		if(_x%4!=0 ||_y%4!=0 ){
+			grid[# _x, _y] = FLOOR;
+		}
 		
 		//make the warp block to dungeonCyber
 		if(_x == 10 && _y == 10){
