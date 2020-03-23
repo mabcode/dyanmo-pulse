@@ -1,4 +1,7 @@
 randomize()
+
+audio_stop_sound(m_battle);
+
 current_room = obj_hubroom;
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
 

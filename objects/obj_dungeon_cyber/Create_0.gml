@@ -1,6 +1,8 @@
 randomize()
 current_room = obj_dungeon_cyber;
 
+audio_stop_sound(m_darkwaves);
+
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
 
 width = room_width / C_WIDTH;
