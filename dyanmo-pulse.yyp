@@ -250,7 +250,7 @@
             "Key": "43fdb767-17d9-477c-b36b-783be906e4d8",
             "Value": {
                 "id": "26352c8f-9402-460a-b32d-3300240320a1",
-                "resourcePath": "sprites\/spr_start\/spr_start.yy",
+                "resourcePath": "sprites\/spr_newGame\/spr_newGame.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +522,7 @@
             "Key": "9bf1ece0-98ef-4f28-b6f9-6ee30c2b642e",
             "Value": {
                 "id": "fc3553a5-9620-4772-b22b-684eb759a243",
-                "resourcePath": "objects\/obj_start\/obj_start.yy",
+                "resourcePath": "objects\/obj_newGame\/obj_newGame.yy",
                 "resourceType": "GMObject"
             }
         },
