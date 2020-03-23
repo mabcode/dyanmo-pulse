@@ -1,7 +1,7 @@
 randomize()
 current_room = obj_dungeon;
 
-audio_stop_sound(m_darkwaves);
+audio_stop_all();
 
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
 

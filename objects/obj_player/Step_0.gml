@@ -1,7 +1,7 @@
 // player step events
 
-var x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
+var x_input = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var y_input = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 //setup code for controller 
 if((abs(gamepad_axis_value(0,gp_axislh)) > 0.2) || (abs(gamepad_axis_value(0,gp_axislv)) > 0.2)){

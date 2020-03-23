@@ -1,6 +1,6 @@
 randomize()
 
-audio_stop_sound(m_darkwaves);
+audio_stop_all();
 
 current_room = obj_bossroom;
 var wall_tile_id = layer_tilemap_get_id("Tile_Wall");
