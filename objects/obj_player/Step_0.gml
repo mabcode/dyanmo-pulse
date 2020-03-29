@@ -3,6 +3,13 @@
 var x_input = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var y_input = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if(keyboard_check(ord("1"))) {
+	gun_selected = 1;
+} 
+if(keyboard_check(ord("2"))) {
+	gun_selected = 2;
+}
+
 //setup code for controller 
 if((abs(gamepad_axis_value(0,gp_axislh)) > 0.2) || (abs(gamepad_axis_value(0,gp_axislv)) > 0.2)){
 	x_input = max(gamepad_axis_value(0,gp_axislh),0)-abs(min(gamepad_axis_value(0,gp_axislh),0));
