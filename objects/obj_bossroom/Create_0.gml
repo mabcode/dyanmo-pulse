@@ -13,8 +13,8 @@ grid = ds_grid_create(width, height);
 ds_grid_set_region(grid, 0, 0, width, height, VOID);
 
 // setting up the controller
-var controller_x = 8;
-var controller_y = 8;
+var controller_x = 7;
+var controller_y = 7;
 
 var player_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 var player_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;

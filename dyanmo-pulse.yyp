@@ -471,6 +471,22 @@
             }
         },
         {
+            "Key": "86bba7c7-8828-4a6c-b5ff-a24c2ba6e0a7",
+            "Value": {
+                "id": "c0731492-fc2e-473f-9a63-2e4c606eebcb",
+                "resourcePath": "sprites\/spr_mutliShot\/spr_mutliShot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "883b67cc-9562-4046-ade5-9306ccd989ac",
+            "Value": {
+                "id": "6390085f-fa42-43da-8d8d-a5faac64325c",
+                "resourcePath": "objects\/obj_multiShot\/obj_multiShot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c330ed1-fd80-4449-b1cf-cdac3be0d697",
             "Value": {
                 "id": "160e6649-6562-490b-b6c6-7a401ee86b33",

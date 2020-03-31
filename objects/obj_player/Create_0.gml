@@ -7,7 +7,7 @@ createGun =1;
 
 globalvar difficulty_mod;
 globalvar gun_selected;
-gun_selected = 1;
+
 
 globalvar max_speed;
 acceleration = 0.5;
