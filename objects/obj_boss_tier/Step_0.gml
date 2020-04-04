@@ -12,12 +12,20 @@ switch(state){
 		//right= pos , left = neg
 		dir_x = sign(obj_player.x - x);
 		dir_y = sign(obj_player.y - y);	
-		x_speed = dir_x * acceleration;
-		y_speed = dir_y * acceleration;
-
+		
+		if(enemyHealth<20){
+			x_speed = dir_x * (acceleration+1.2);
+			y_speed = dir_y * (acceleration+1.2);
+		}
+		else{
+			x_speed = dir_x * acceleration;
+			y_speed = dir_y * acceleration;
+		}
+			
 		if(distance_to_object(obj_player) < 80){
 			state = e_state.attack;
 		}
+
 	}
 	break;
 	
@@ -28,6 +36,7 @@ switch(state){
 			state = e_state.chase;
 		}
 	}
+	
 }
 
 // Right and Left collision detection
