@@ -23,8 +23,11 @@ switch(state){
 			y_speed = dir_y * acceleration;
 		}
 			
-		if(distance_to_object(obj_player) < 80){
+		if(distance_to_object(obj_player) < 80 && enemyHealth >10){
 			state = e_state.attack;
+		}
+		else if (distance_to_object(obj_player) < 80 && enemyHealth <10){
+			state = e_state.attackOne;
 		}
 
 	}
@@ -34,6 +37,15 @@ switch(state){
 		x_speed =0;
 		y_speed =0;
 		if(distance_to_object(obj_player) > range+55){
+			state = e_state.chase;
+		}
+	}
+	break;
+	
+	case e_state.attackOne:{
+		x_speed =0;
+		y_speed =0;
+		if(distance_to_object(obj_player) > range+45){
 			state = e_state.chase;
 		}
 	}

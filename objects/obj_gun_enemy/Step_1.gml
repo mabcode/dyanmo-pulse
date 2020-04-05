@@ -17,9 +17,9 @@ if(fireDelay < 0 && obj_bad_boss.state == e_state.attack){
 	}
 }
 
-if(trishotDelay < 0 && obj_bad_boss.state == e_state.attack){
+if(trishotDelay < 0 && obj_bad_boss.state == e_state.attackOne){
 	recoil=4;
-	trishotDelay = 28;
+	trishotDelay = 12;
 	with( instance_create_layer(x,y,"Instances", obj_bullet_enemy)){
 		speed = 5;
 		direction = other.image_angle + 30;
