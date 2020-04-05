@@ -1,3 +1,4 @@
+
 switch(state){
 	case e_state.idle:{
 		x_speed =0;

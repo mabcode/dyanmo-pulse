@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_bad_boss",
     "eventList": [
-        
+        {
+            "id": "0050fa94-f0ec-43bb-9fa0-718584ebc087",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 72,
+            "eventtype": 8,
+            "m_owner": "69866813-081b-43fb-90f7-87dec78a25bf"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cbc6fa34-0e1e-42f6-975b-ff2b42fc1e6c",
+    "spriteId": "0ae90ad0-3fa3-44f7-a780-7c0339ccacae",
     "visible": true
 }
