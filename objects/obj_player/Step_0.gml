@@ -1,7 +1,21 @@
 // player step events
 
-var x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
+var x_input = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var y_input = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+if(keyboard_check(ord("1"))) {
+	gun_selected = 1;
+} 
+if(keyboard_check(ord("2"))) {
+	gun_selected = 2;
+}
+
+//setup code for controller 
+if((abs(gamepad_axis_value(0,gp_axislh)) > 0.2) || (abs(gamepad_axis_value(0,gp_axislv)) > 0.2)){
+	x_input = max(gamepad_axis_value(0,gp_axislh),0)-abs(min(gamepad_axis_value(0,gp_axislh),0));
+	y_input = max(gamepad_axis_value(0,gp_axislv),0)-abs(min(gamepad_axis_value(0,gp_axislv),0));
+	
+}
 
 //change character image set;
 
@@ -19,6 +33,10 @@ else if(y_input > 0){
 x_speed += x_input * acceleration;
 y_speed += y_input * acceleration;
 
+if(createGun){
+	instance_create_layer(-10, -10, "Instances", obj_gun);
+	createGun=0;
+}
 
 var total_speed = point_distance(0, 0, x_speed, y_speed);
 var total_direction = point_direction(0, 0, x_speed ,y_speed);
@@ -46,7 +64,6 @@ if(x_input == 0 && y_input == 0) {
 // Right and Left collision detection
 x += x_speed;
 
-
 if(x_speed > 0) {
 	image_xscale = 1;
 	if(grid_place_meeting(self, current_room.grid)) {
@@ -68,13 +85,13 @@ y += y_speed;
 
 if(y_speed > 0) {
 	if(grid_place_meeting(self, current_room.grid)) {
-		y = bbox_bottom&~(C_HEIGHT-1);
+		y = bbox_bottom&~(C_HEIGHT - 1);
 		y -= bbox_bottom - y;
 		y_speed = 0;
 	}
 } else if(y_speed < 0) {
 	if(grid_place_meeting(self, current_room.grid)) {
-		y = bbox_top&~(C_HEIGHT-1);
+		y = bbox_top&~(C_HEIGHT - 1);
 		y += C_HEIGHT + y - bbox_top;
 		y_speed = 0;
 	}
