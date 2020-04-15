@@ -33,10 +33,6 @@ else if(y_input > 0){
 x_speed += x_input * acceleration;
 y_speed += y_input * acceleration;
 
-if(createGun){
-	instance_create_layer(-10, -10, "Instances", obj_gun);
-	createGun=0;
-}
 
 var total_speed = point_distance(0, 0, x_speed, y_speed);
 var total_direction = point_direction(0, 0, x_speed ,y_speed);

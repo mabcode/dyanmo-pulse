@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "aa388f75-bf07-49d5-8c1f-7331a77244e8",
+            "Value": {
+                "id": "bb84737d-e80d-43a5-8715-5cf25c3a7e1b",
+                "resourcePath": "objects\/obj_bullet_enemy_low\/obj_bullet_enemy_low.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "acd1107e-b11d-4f81-af64-d1b5b9b8fa3b",
             "Value": {
                 "id": "06b31d55-c9df-4486-b4cb-24b7c1edd35c",
@@ -924,6 +932,14 @@
                 "id": "f23991c6-cf9c-4376-94c4-14a6548d364b",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f49c1fe6-16e3-4709-8c34-4861c2d03706",
+            "Value": {
+                "id": "0efa76cc-6829-4ced-a25a-7545a4d21080",
+                "resourcePath": "objects\/obj_gun_enemy_low\/obj_gun_enemy_low.yy",
+                "resourceType": "GMObject"
             }
         },
         {

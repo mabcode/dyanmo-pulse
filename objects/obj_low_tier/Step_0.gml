@@ -15,7 +15,7 @@ switch(state){
 		x_speed = dir_x * acceleration;
 		y_speed = dir_y * acceleration;
 
-		if(distance_to_object(obj_player) < 20){
+		if(distance_to_object(obj_player) < 60){
 			state = e_state.attack;
 		}
 	}
@@ -28,6 +28,7 @@ switch(state){
 			state = e_state.chase;
 		}
 	}
+	break;
 }
 
 // Right and Left collision detection

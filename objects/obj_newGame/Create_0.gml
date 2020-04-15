@@ -7,3 +7,6 @@ enum e_state{
 	attackThree
 	
 }
+
+globalvar deadEnemies;
+globalvar update;
