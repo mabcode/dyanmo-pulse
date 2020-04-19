@@ -30,6 +30,25 @@ switch(state){
 	}
 	break;
 }
+fireDelay--;
+trishotDelay--;
+
+//logic to connect each gun to enemy
+with(mygun){
+x = other.x;
+y = other.y;
+
+if(fireDelay < 0 && other.state == e_state.attack){
+	recoil=4;
+	fireDelay = 36;
+	with( instance_create_layer(x,y,"Instances", obj_bullet_enemy_low)){
+		speed = 3;
+		direction = other.image_angle + random_range(-6,6);
+		image_angle	 = direction;
+	}
+}
+
+}
 
 // Right and Left collision detection
 x += x_speed;

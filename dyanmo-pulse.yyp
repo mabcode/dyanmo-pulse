@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "e21eeab0-4cce-4b91-abf2-3794163fe61c",
+            "Value": {
+                "id": "0745068f-7014-4a60-b6ff-c3ba0bb4ea44",
+                "resourcePath": "sprites\/spr_bullet_enemy_low\/spr_bullet_enemy_low.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2efc746-e474-4a77-bb16-f952591e690c",
             "Value": {
                 "id": "fa59bbb0-361c-4c49-9f84-c5e75238251b",

@@ -5,6 +5,6 @@ globalvar max_speed_e;
 globalvar num_enemy;
 globalvar range;
 enemyHealth = 10;
-acceleration = 0.75;
+acceleration = 1;
 flash=0;
 hitFrom = 0;
