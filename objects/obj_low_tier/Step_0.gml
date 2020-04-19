@@ -2,7 +2,7 @@ switch(state){
 	case e_state.idle:{
 		x_speed =0;
 		y_speed =0;
-		if(distance_to_object(obj_player)< range){
+		if(distance_to_object(obj_player)< range+20){
 			state = e_state.chase;
 		}
 	}

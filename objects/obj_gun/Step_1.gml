@@ -8,7 +8,7 @@ fireDelay--;
 
 if(mouse_check_button(mb_left)) && (fireDelay < 0){
 	recoil=4;
-	fireDelay = 8;
+	fireDelay = 15;
 	if(gun_selected == 1) {
 		with( instance_create_layer(x,y,"Instances", obj_bullet)){
 			speed = 5;

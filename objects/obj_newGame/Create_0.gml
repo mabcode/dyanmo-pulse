@@ -10,3 +10,4 @@ enum e_state{
 
 globalvar deadEnemies;
 globalvar update;
+globalvar pHealth;
