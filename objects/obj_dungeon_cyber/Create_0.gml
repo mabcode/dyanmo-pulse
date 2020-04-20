@@ -68,10 +68,18 @@ for(var i =0 ; i < tile_amount ; i++) {
 	
 	//make the warp block to next level
 	if(i==488){
-		var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
-		var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
-		var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
-		rm.roomTo = hubroom;
+		if(cleared_num >= 0 && cleared_num <= 3) {
+			cleared_num += 1;
+			var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
+			var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
+			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
+			rm.roomTo = dungeonCyber;
+		} else {
+			var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
+			var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
+			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
+			rm.roomTo = hubroom;
+		}
 	}
 	
 }

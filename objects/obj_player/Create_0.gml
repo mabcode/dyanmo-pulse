@@ -5,6 +5,7 @@ healthMax = playerHealth;
 flash = 0;
 
 globalvar difficulty_mod;
+globalvar cleared_num;
 globalvar gun_selected;
 
 
