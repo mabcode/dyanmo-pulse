@@ -1,1 +1,1 @@
-//room_goto(difficultyMenu)
+room_goto(credits);

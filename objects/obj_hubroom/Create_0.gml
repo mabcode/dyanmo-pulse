@@ -1,5 +1,5 @@
 randomize()
-
+update=true;
 audio_stop_all();
 
 gun_selected = 1;
@@ -25,44 +25,13 @@ for (var _y = 2; _y < height-2; _y++) {
 	for (var _x = 2; _x < width-2; _x++) {
 		grid[# _x, _y] = FLOOR;
 		
-		//make the warp block to dungeonCyber
-		if(_x == 10 && _y == 10){
-			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
-			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
-			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
-			rm.roomTo = dungeonCyber;
-		}
-		
 		//make the warp block to dungeon
 		if(_x == 10 && _y == 4){
 			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
 			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
 			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
 			rm.roomTo = dungeon;
-		}
-		
-		//make the warp block to bossroom
-		if(_x == 15 && _y == 7){
-			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
-			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
-			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
-			rm.roomTo = bossroom;
-		}
-		
-		if(_x == 5 && _y == 7){
-			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
-			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
-			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
-			rm.roomTo = dungeonOverrun;
-		}
-		
-		//make the multishot sprite
-		if(_x == 14 && _y == 7){
-			var bad_start_x = _x * C_WIDTH + C_WIDTH / 2;
-			var bad_start_y = _y * C_HEIGHT + C_HEIGHT / 2;
-			instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_multiShot);
-		}
-		
+		}	
 	}
 }
 

@@ -5,5 +5,6 @@ num_enemy = 60;
 range= 70;
 
 difficulty_mod = .75;
+cleared_num = 0;
 
 room_goto(hubroom);
