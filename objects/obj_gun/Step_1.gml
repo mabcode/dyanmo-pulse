@@ -11,12 +11,14 @@ if(mouse_check_button(mb_left)) && (fireDelay < 0){
 	fireDelay = 15;
 	if(gun_selected == 1) {
 		with( instance_create_layer(x,y,"Instances", obj_bullet)){
+			audio_play_sound(m_shoot,1,false);
 			speed = 5;
 			direction = other.image_angle + random_range(-3,3);
 			image_angle	 = direction;
 		}
 	} if(gun_selected == 2) {
 		with( instance_create_layer(x,y,"Instances", obj_bullet_shot)){
+			audio_play_sound(m_shot,1,false);
 			speed = 5;
 			direction = other.image_angle + 5;
 			image_angle	 = direction;

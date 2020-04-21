@@ -39,6 +39,7 @@ x = other.x;
 y = other.y;
 
 if(fireDelay < 0 && other.state == e_state.attack){
+	audio_play_sound(m_enemy_shoot,1,false);
 	recoil=4;
 	fireDelay = 36;
 	with( instance_create_layer(x,y,"Instances", obj_bullet_enemy_low)){

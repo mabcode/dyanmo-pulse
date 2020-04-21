@@ -14,7 +14,11 @@ if(keyboard_check(ord("2"))) {
 if((abs(gamepad_axis_value(0,gp_axislh)) > 0.2) || (abs(gamepad_axis_value(0,gp_axislv)) > 0.2)){
 	x_input = max(gamepad_axis_value(0,gp_axislh),0)-abs(min(gamepad_axis_value(0,gp_axislh),0));
 	y_input = max(gamepad_axis_value(0,gp_axislv),0)-abs(min(gamepad_axis_value(0,gp_axislv),0));
-	
+	if(gp_face4 && gun_selected == 1) {
+		gun_selected = 2;	
+	} else {
+		gun_selected = 1;
+	}
 }
 
 //change character image set;

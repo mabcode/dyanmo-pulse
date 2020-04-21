@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "06cf3ba9-f305-433e-92fa-98f2f4cc7167",
+            "Value": {
+                "id": "2d89b789-9c50-4520-a294-35762b46589e",
+                "resourcePath": "sounds\/m_enemy_shoot\/m_enemy_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0ae90ad0-3fa3-44f7-a780-7c0339ccacae",
             "Value": {
                 "id": "50a464de-6ef1-4082-865f-6bb777660006",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "2bc1339f-be6d-422c-a731-f9ccbf5d9e39",
+            "Value": {
+                "id": "af9bb719-455e-4348-94c1-7715e91473e2",
+                "resourcePath": "sounds\/m_enemy_shoot_red\/m_enemy_shoot_red.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2c339c5a-026a-403f-b4b9-640ddb6ccdc9",
             "Value": {
                 "id": "f8ea2c2e-4967-4409-8e08-e1b433f79274",
@@ -268,6 +284,14 @@
                 "id": "e9984f87-4139-4f6a-b572-b34cede3933e",
                 "resourcePath": "objects\/obj_battle_music\/obj_battle_music.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3df22047-4aa0-48b9-8ca7-a06d99db0d12",
+            "Value": {
+                "id": "df17dfa7-c3c2-4403-9ff8-6013aa65f913",
+                "resourcePath": "sounds\/m_shoot\/m_shoot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -548,6 +572,14 @@
                 "id": "e6f1d672-76ac-47fb-87a5-231708f30e14",
                 "resourcePath": "sprites\/spr_easy\/spr_easy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8fc845b7-8f7f-45fd-9783-949ed1e3391c",
+            "Value": {
+                "id": "9a4b908f-f7fa-4d81-a392-07155901ea53",
+                "resourcePath": "sounds\/m_shot\/m_shot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
