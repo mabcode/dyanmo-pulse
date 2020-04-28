@@ -68,22 +68,22 @@ for(var i =0 ; i < tile_amount ; i++) {
 	
 	//make the warp block to next level
 	if(i==488){
-		if(cleared_num <= 3) {
+		if(cleared_num < 4) {
 			var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 			var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
 			rm.roomTo = dungeon;
-		} if(cleared_num > 3 && cleared_num <= 7) {
+		} if(cleared_num > 4 && cleared_num < 7) {
 			var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 			var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
 			rm.roomTo = dungeonCyber;
-		} if(cleared_num > 7 && cleared_num <= 11) {
+		} if(cleared_num > 7 && cleared_num < 11) {
 			var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 			var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
 			rm.roomTo = dungeonOverrun;
-		} else {
+		} else if (cleared_num == 4 || cleared_num == 7 || cleared_num == 11) {
 			var bad_start_x = controller_x * C_WIDTH + C_WIDTH / 2;
 			var bad_start_y = controller_y * C_HEIGHT + C_HEIGHT / 2;
 			var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);

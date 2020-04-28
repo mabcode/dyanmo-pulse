@@ -1,8 +1,8 @@
-/// @description Insert description here
+/// @description Hubroom
 // You can write your code in this editor
 
 if(update){
-	if(deadEnemies > 3){
+	if(cleared_num > 3){
 		var bad_start_x = 10 * C_WIDTH + C_WIDTH / 2;
 		var bad_start_y = 10 * C_HEIGHT + C_HEIGHT / 2;
 		var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
@@ -10,7 +10,7 @@ if(update){
 	}
 	
 	
-	if(deadEnemies > 6){
+	if(cleared_num > 6){
 		var bad_start_x = 5 * C_WIDTH + C_WIDTH / 2;
 		var bad_start_y = 7 * C_HEIGHT + C_HEIGHT / 2;
 		var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
@@ -23,7 +23,7 @@ if(update){
 	}
 	
 		
-	if(deadEnemies > 9){
+	if(cleared_num > 10){
 		var bad_start_x = 15 * C_WIDTH + C_WIDTH / 2;
 		var bad_start_y = 7 * C_HEIGHT + C_HEIGHT / 2;
 		var rm = instance_create_layer(bad_start_x, bad_start_y, "Instances", obj_warp);
