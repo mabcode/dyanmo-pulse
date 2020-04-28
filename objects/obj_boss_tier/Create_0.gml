@@ -4,7 +4,7 @@ state = e_state.idle;
 globalvar max_speed_e;
 globalvar num_enemy;
 globalvar range;
-enemyHealth = 30;
+enemyHealth = 50;
 acceleration = 0.6;
 flash=0;
 hitFrom = 0;
